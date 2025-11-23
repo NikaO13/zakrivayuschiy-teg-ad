@@ -4,9 +4,10 @@
   --accent-font: 'PressStart2P-Regular';
   --font-weight-card-header: 700;
   --font-weight-card-text: 400;
-  --main-width: clamp(375px, 700px, 1440px);
+  --main-width: clamp(375px, 80%, 700px);
   --accent-color: #000000;
-
+  --header-title: clamp(49px, 10.83px + 0.845vw, 65px);
+  --header-text: clamp(14px, 10.83px + 0.845vw, 23px);
   --background-image:
   repeating-linear-gradient(to right, 
       #d3d3d3 0,
