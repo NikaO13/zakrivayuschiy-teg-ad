@@ -22,4 +22,7 @@
   --core-color: #fff;
   --main-body-color: #FF0000;
   --sparks-color: #FF0000;
+
+  --stroke-color: #000000;
+  --stroke-width: 1px;
 }
