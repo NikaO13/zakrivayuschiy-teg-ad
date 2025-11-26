@@ -107,12 +107,6 @@
   margin-bottom: 25px;
 }
 
-.card__like-heart {
-  width: 36px;
-  height: 39px;
-  margin-right: 12px;
-}
-
 .button__text {
   font-family: var(--accent-font, sans-serif);
 }
