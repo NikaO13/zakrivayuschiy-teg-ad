@@ -154,7 +154,7 @@
 }
 
 .filter-4 {
-  filter: invert(1) contrast(0.5);
+  filter: invert(1);
 }
 
 .filter-5 {
