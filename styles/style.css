@@ -157,7 +157,7 @@
 }
 
 .image__filter-4 {
-  filter: hue-rotate(50deg) invert(1) contrast(0.5);
+  filter: invert(1) contrast(0.5);
 }
 
 .image__filter-5 {
@@ -248,6 +248,21 @@
     -var(--stroke-width) 0 var(--stroke-color),
     0 var(--stroke-width) var(--stroke-color),
     0 -var(--stroke-width) var(--stroke-color);
+}
+
+@media (width <= 375px) {
+  .header-block {
+    height: 327px;
+    width: 100vw;
+  }
+  .card {
+    width: 100vw;
+    margin: 0;
+  }
+  .footer {
+    width: 100vw;
+    margin: 0 auto;
+  }
 }
 
 @supports (-webkit-text-stroke: 1px #000) or (text-stroke: 1px #000) {
